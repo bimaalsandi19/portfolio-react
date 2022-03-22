@@ -32,3 +32,29 @@ h1 {
   color: #cacaca;
   font-size: 20px;
 }
+.project .card {
+  padding: 10px !important;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px silver;
+}
+.project .card a {
+  color: #000;
+  text-decoration: none;
+}
+.project .card i {
+  font-size: 40px;
+}
+.project .card:hover {
+  background: #1c1f23;
+  transition: 0.5s;
+}
+.project .card:hover p,
+.card:hover i,
+.card:hover h3,
+.card:hover a {
+  color: #f8f9fa;
+}
+
+.contact i {
+  margin-right: 20px;
+}
